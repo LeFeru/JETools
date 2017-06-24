@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JE Tools</string>
+    <string name="title_journee_list">Journees</string>
+    <string name="title_journee_detail">Journee Detail</string>
+</resources>

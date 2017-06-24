@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.UtilisateurActivity">
+
+    <TextView
+        android:id="@+id/pseudoText"
+        android:text="Pseudo:"
+        android:textSize="10pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|top"/>
+    <EditText
+        android:id="@+id/pseudoVal"
+        android:hint="rasli"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|top"/>
+    <TextView
+        android:id="@+id/mdpText"
+        android:text="Mot de passe:"
+        android:textSize="10pt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|top"/>
+    <EditText
+        android:id="@+id/mdpVal"
+        android:hint="********"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|top"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/connexion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Connexion"
+        android:layout_gravity="center_vertical|top"
+        android:onClick="connecterUtilisateur"/>
+
+</LinearLayout>
